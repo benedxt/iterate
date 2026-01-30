@@ -15,7 +15,7 @@ func main() {
 	var idx int
 	fmt.Scan(&idx)
 	favIdx := ms[idx-1]
-	fmt.Printf("value at index %v: %v\n", idx, favIdx[idx])
+	fmt.Printf("value at index %v: %.0f\n", idx, favIdx[idx])
 
 }
  
